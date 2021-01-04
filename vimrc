@@ -10,9 +10,10 @@ set paste
 set nocompatible
 set expandtab
 set number
+set ts=4 sts=4 sw=4
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 syntax on
 colorscheme onedark
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 let g:indentLine_char = '|'
 let g:indentLine_setColors = 1
 let g:indentLine_color_term = 243
