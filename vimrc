@@ -16,6 +16,6 @@ syntax on
 colorscheme onedark
 let g:indentLine_char = '|'
 let g:indentLine_setColors = 1
-let g:indentLine_color_term = 243
+let g:indentLine_color_term = 242
 highlight LineNr term=bold cterm=bold ctermfg=Green
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
