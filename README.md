@@ -1,3 +1,4 @@
 ## General informations
 
-* Vim plugin manager : https://github.com/junegunn/vim-plug
+* Vim
+  * Plugin manager : https://github.com/junegunn/vim-plug
