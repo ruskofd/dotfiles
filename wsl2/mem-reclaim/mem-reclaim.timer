@@ -1,0 +1,9 @@
+[Unit]
+Description=Aggressive memory reclaim script for WSL2
+
+[Timer]
+OnCalendar=*:0/15
+Persistent=true
+
+[Install]
+WantedBy=timers.target

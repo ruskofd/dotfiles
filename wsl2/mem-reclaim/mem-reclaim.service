@@ -1,0 +1,9 @@
+[Unit]
+Description=Aggressive memory reclaim script for WSL2
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/mem-reclaim.sh
+
+[Install]
+WantedBy=multi-user.target
