@@ -1,0 +1,107 @@
+{
+	"$schema" : "https://aka.ms/terminal-profiles-schema",
+	"colorScheme" : "NightLion v1",
+	"copyFormatting" : false,
+	"copyOnSelect" : false,
+	"multiLinePasteWarning": false,
+
+	"defaultProfile" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+
+	"profiles" : 
+	{
+		"defaults" : 
+		{
+			"acrylicOpacity" : 0.85,
+			"antialiasingMode" : "grayscale",
+			"cursorShape" : "underscore",
+			"useAcrylic" : true
+		},
+		"list" : 
+		[
+			{
+			    "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+			    "hidden": false,
+			    "name": "Ubuntu",
+			    "source": "Windows.Terminal.Wsl"
+			},
+			{
+				"guid" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+				"hidden" : false,
+				"name" : "PowerShell",
+				"source" : "Windows.Terminal.PowershellCore"
+			},
+			{
+				"background" : "#350425",
+				"commandline" : "multipass shell",
+				"cursorShape" : "filledBox",
+				"fontFace" : "Ubuntu Mono",
+				"guid" : "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
+				"historySize" : 50000,
+				"icon" : "c:/program files/multipass/bin/multipass_wt.ico",
+				"name" : "Multipass"
+			},
+			{
+			    "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+			    "hidden": false,
+			    "name": "Ubuntu",
+				"source": "Windows.Terminal.Wsl",
+				"commandline": "wsl.exe genie -s"
+			},
+			{
+			    "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+			    "hidden": false,
+			    "name": "Azure Cloud Shell",
+			    "source": "Windows.Terminal.Azure"
+			}
+		]
+	},
+	// Add custom color schemes to this array.
+	// To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
+	"schemes" : 
+	[
+		{
+			"background" : "#000000",
+			"black" : "#4c4c4c",
+			"blue" : "#276bd8",
+			"brightBlack" : "#555555",
+			"brightBlue" : "#5555ff",
+			"brightCyan" : "#55ffff",
+			"brightGreen" : "#55ff55",
+			"brightPurple" : "#ff55ff",
+			"brightRed" : "#ff5555",
+			"brightWhite" : "#ffffff",
+			"brightYellow" : "#ffff55",
+			"cyan" : "#00dadf",
+			"foreground" : "#bbbbbb",
+			"green" : "#5fde8f",
+			"name" : "NightLion v1",
+			"purple" : "#bb00bb",
+			"red" : "#bb0000",
+			"white" : "#bbbbbb",
+			"yellow" : "#f3f167"
+		}
+	],
+
+	"actions" : [
+		{ "command" : { "action" : "copy", "singleLine" : false }, "keys" : "ctrl+shift+c" },
+		{ "command" : "paste", "keys" : "ctrl+shift+v" },
+		{ "command" : "find", "keys" : "ctrl+shift+f" },
+
+		// Split panes
+		{ "command" : { "action" : "splitPane", "split" : "vertical", "splitMode" : "duplicate"	}, "keys" : "alt+shift+d" },
+		{ "command" : { "action" : "splitPane", "split" : "horizontal", "splitMode" : "duplicate" }, "keys" : "alt+shift+s" },
+
+		// Resize panes
+		{ "command" :  { "action" : "resizePane", "direction" : "down" }, "keys" : "ctrl+alt+s"	},
+		{ "command" :  { "action" : "resizePane", "direction" : "left" }, "keys" : "ctrl+alt+q"	},
+		{ "command" :  { "action" : "resizePane", "direction" : "right"	}, "keys" : "ctrl+alt+d" },
+		{ "command" :  { "action" : "resizePane", "direction" : "up" },	"keys" : "ctrl+alt+z" },
+		{ "command" : "closePane", "keys" : "ctrl+shift+x" },
+		
+		// Move focus
+		{ "command" : {	"action" : "moveFocus", "direction" : "down" }, "keys" : "alt+s" },
+		{ "command" : { "action" : "moveFocus",	"direction" : "left" },	"keys" : "alt+q" },
+		{ "command" : { "action" : "moveFocus",	"direction" : "right" }, "keys" : "alt+d" },
+		{ "command" : { "action" : "moveFocus",	"direction" : "up" }, "keys" : "alt+z" }
+	]
+}

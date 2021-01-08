@@ -1,0 +1,5 @@
+{
+    "iptables": true,
+    "userland-proxy": false,
+    "live-restore": true
+}
