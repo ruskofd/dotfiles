@@ -16,4 +16,8 @@ plugins=(git zsh-autosuggestions docker docker-compose kubectl helm extract fzf 
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# Docker Remote
+export DOCKER_HOST=ssh://core@10.0.1.3
+
+# Highway to root
+alias htr="docker run --rm --privileged --pid=host -it alpine nsenter -t 1 -m -u -n -i sh"
