@@ -10,3 +10,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias cat="bat"
 alias spt="spt --config $HOME/.config/spotify-tui/client.yml"
+
+# tmux
+tmux
