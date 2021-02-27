@@ -13,4 +13,8 @@
 * **Applications** :
   - Vim
     * Plugin manager : https://github.com/junegunn/vim-plug
+  - spotify-tui
+    * spt : https://github.com/Rigellute/spotify-tui
+    * spotifyd : https://github.com/Spotifyd/spotifyd
+  - tmux 3.1
 
