@@ -1,6 +1,6 @@
 ## General informations
 
-* **Operating System** : Windows 10 (20H2)
+* **Operating System** : Fedora Workstation 33 (GNOME 3.38.4)
 
 * **Hardware configuration** :
   - CPU : Ryzen 7 3700X
@@ -8,12 +8,9 @@
   - GPU : RTX 2070 Super
   - SSD : 2 x 1TB
 
-* **Shell** : 
-  - WSL : zsh (+ oh-my-zsh)
-  - Windows : PowerShell Core 7
+* **Shell** : zsh (+ oh-my-zsh)
 
 * **Applications** :
-  - Windows Terminal (v1.4.3243.0)
   - Vim
     * Plugin manager : https://github.com/junegunn/vim-plug
-  - Docker 20.10.2
+
