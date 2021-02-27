@@ -34,6 +34,7 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 let g:airline_theme='onedark'
 
 " NerdTree
+let g:NERDTreeShowHidden = '1'
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
@@ -41,6 +42,7 @@ nnoremap <C-C> :NERDTreeFocus<CR>
 function! IsNERDTreeOpen()
   return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
 endfunction
+
 
 " Ansible
 let g:ansible_name_highlight = 'd'
