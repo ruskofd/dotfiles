@@ -28,6 +28,7 @@ let g:indentLine_setColors = 1
 let g:indentLine_color_term = 242
 highlight LineNr term=bold cterm=bold ctermfg=Green
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/plugged/vim-yaml/after/ftplugin/yaml.vim
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " Themes
 let g:airline_theme='onedark'
