@@ -4,13 +4,15 @@ client_secret: <secret>
 device_id: <secret>
 port: 8888
   
-theme:
-  active: "30, 215, 96"
-  banner: "30, 215, 96"
-  playbar_background: "30, 215, 96"
-  playbar_progress: "30, 215, 96"
-  playbar_progress_text: "25, 20, 20"
-
-behavior:
-  volume_increment: 5
+theme:                                                                                                                                                                                                              
+  active: "30, 215, 96"                                                                                                                                                                                             
+  banner: "30, 215, 96"                                                                                                                                                                                             
+  hovered: "30, 215, 96"                                                                                                                                                                                            
+  selected: "30, 215, 96"                                                                                                                                                                                           
+  playbar_background: "30, 215, 96"                                                                                                                                                                                 
+  playbar_progress: "30, 215, 96"                                                                                                                                                                                   
+  playbar_progress_text: "25, 20, 20"                                                                                                                                                                               
+                                                                                                                                                                                                                    
+behavior:                                                                                                                                                                                                           
+  volume_increment: 5                                                                                                                                                                                               
   enforce_wide_search_bar: true
