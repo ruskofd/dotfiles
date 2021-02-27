@@ -29,6 +29,6 @@ sysstat
 gnome-tweak-tool
 vlc
 bind-utils
-shellcheck
+ShellCheck
 vagrant
 vagrant-libvirt
