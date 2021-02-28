@@ -18,3 +18,9 @@
     * spotifyd : https://github.com/Spotifyd/spotifyd
   - tmux 3.1
 
+## Tips & tricks reminder
+
+* **Improve Firefox performance on Linux (using WebRender)** :
+  
+  - *gfx.webrender.all* => **true**
+  - *layers.acceleration.force-enabled* => **true**
