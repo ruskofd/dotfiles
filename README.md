@@ -1,6 +1,6 @@
 ## General informations
 
-* **Operating System** : Fedora Workstation 33 (GNOME 3.38.4)
+* **Operating System** : Windows 10 20H2 + WSL2 (Fedora)
 
 * **Hardware configuration** :
   - CPU : Ryzen 7 3700X
@@ -13,9 +13,6 @@
 * **Applications** :
   - Vim
     * Plugin manager : https://github.com/junegunn/vim-plug
-  - spotify-tui
-    * spt : https://github.com/Rigellute/spotify-tui
-    * spotifyd : https://github.com/Spotifyd/spotifyd
   - tmux 3.1
 
 ## Tips & tricks reminder
