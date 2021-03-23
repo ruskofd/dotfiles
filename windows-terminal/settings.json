@@ -1,6 +1,5 @@
 {
 	"$schema" : "https://aka.ms/terminal-profiles-schema",
-	"colorScheme" : "NightLion v1",
 	"copyFormatting" : false,
 	"copyOnSelect" : false,
 	"multiLinePasteWarning": false,
@@ -14,7 +13,8 @@
 			"acrylicOpacity" : 0.90,
 			"antialiasingMode" : "grayscale",
 			"cursorShape" : "underscore",
-			"useAcrylic" : true
+			"useAcrylic" : true,
+			"bellStyle": "none"
 		},
 		"list" : 
 		[
@@ -25,46 +25,23 @@
 			    "source" : "Windows.Terminal.PowershellCore"
 			},
 			{
-			    "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+			    "guid": "{aa8efdb5-3cbe-50b2-a332-9203dc1ee217}",
 			    "hidden": false,
-			    "name": "Ubuntu",
+			    "name": "Fedora",
 			    "source": "Windows.Terminal.Wsl",
-		            "commandline": "wsl.exe genie -s"
+				"commandline": "wsl.exe genie -s"
 			},
 			{
 			    "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
 			    "hidden": false,
 			    "name": "Azure Cloud Shell",
 			    "source": "Windows.Terminal.Azure"
-			},
+			}
 		]
 	},
 	// Add custom color schemes to this array.
 	// To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-	"schemes" : 
-	[
-		{
-			"background" : "#000000",
-			"black" : "#4c4c4c",
-			"blue" : "#276bd8",
-			"brightBlack" : "#555555",
-			"brightBlue" : "#5555ff",
-			"brightCyan" : "#55ffff",
-			"brightGreen" : "#55ff55",
-			"brightPurple" : "#ff55ff",
-			"brightRed" : "#ff5555",
-			"brightWhite" : "#ffffff",
-			"brightYellow" : "#ffff55",
-			"cyan" : "#00dadf",
-			"foreground" : "#bbbbbb",
-			"green" : "#5fde8f",
-			"name" : "NightLion v1",
-			"purple" : "#bb00bb",
-			"red" : "#bb0000",
-			"white" : "#bbbbbb",
-			"yellow" : "#f3f167"
-		}
-	],
+	"schemes" : [],
 
 	"actions" : [
 		{ "command" : { "action" : "copy", "singleLine" : false }, "keys" : "ctrl+shift+c" },
