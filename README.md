@@ -1,15 +1,32 @@
 ## General informations
 
-* **Operating System** : Windows 10 20H2 + WSL2 (Fedora)
+* **Operating System** : Pop!_OS 20.10
 
 * **Shell** : zsh (+ oh-my-zsh)
 
 * **Applications** :
-  - Windows Terminal 1.6.10571.0
+  - Alacritty
   - Vim
   - tmux 3.1
+  - VS Code
+  - LXD 4.12 (for containers and virtual machines)
 
 ## Tips & tricks reminder
+
+* **Improve Firefox performance on Linux (using WebRender)** :
+  
+  - *gfx.webrender.all* => **true**
+  - *layers.acceleration.force-enabled* => **true**
+
+* **Edit Flatpak apps desktop files** : `$HOME/.local/share/flatpak/exports/share/applications/com.spotify.Client.desktop`
+
+* **Enforce SRGB coulour profiles on Electron apps**
+
+  - Edit desktop files and add `--force-color-profile=srgb` to the exec line.
+  
+  ```INI
+  Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=discord com.discordapp.Discord --force-color-profile=srgb
+  ```
 
 * **WSL2 aggressive memory reclaim**
 
@@ -35,7 +52,3 @@
   Fri 2021-01-08 20:30:00 CET 3min 26s left Fri 2021-01-08 20:25:13 CET 1min 19s ago mem-reclaim.timer            mem-reclaim.service
   ```
 
-* **Improve Firefox performance on Linux (using WebRender)** :
-  
-  - *gfx.webrender.all* => **true**
-  - *layers.acceleration.force-enabled* => **true**
