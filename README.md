@@ -21,7 +21,7 @@
 
   `$HOME/.local/share/flatpak/exports/share/applications/com.spotify.Client.desktop`
 
-* **Enforce SRGB coulour profiles on Electron apps**
+* **Enforce sRGB coulour profiles on Electron apps**
 
   Edit desktop files and add `--force-color-profile=srgb` to the exec line :
   
