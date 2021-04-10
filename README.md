@@ -14,8 +14,9 @@
 
 * **Improve Firefox performance on Linux (using WebRender)**
   
-  - *gfx.webrender.all* => **true**
-  - *layers.acceleration.force-enabled* => **true**
+  `gfx.webrender.all` to `true`
+  
+  `layers.acceleration.force-enabled` to `true`
 
 * **Edit Flatpak apps desktop files**
 
