@@ -5,28 +5,30 @@
 * **Shell** : zsh (+ oh-my-zsh)
 
 * **Applications** :
-  - Alacritty
-  - Vim
+  - Terminal : Alacritty
+  - Text Editor : Vim + VS Code
+  - Virtualization/Containers : LXD (OS containers and virtual machines) + Podman
   - tmux 3.1
-  - VS Code
-  - LXD 4.12 (for containers and virtual machines)
 
 ## Tips & tricks reminder
 
-* **Improve Firefox performance on Linux (using WebRender)** :
+* **Improve Firefox performance on Linux (using WebRender)**
   
   - *gfx.webrender.all* => **true**
   - *layers.acceleration.force-enabled* => **true**
 
-* **Edit Flatpak apps desktop files** : `$HOME/.local/share/flatpak/exports/share/applications/com.spotify.Client.desktop`
+* **Edit Flatpak apps desktop files**
+
+  `$HOME/.local/share/flatpak/exports/share/applications/com.spotify.Client.desktop`
 
 * **Enforce SRGB coulour profiles on Electron apps**
 
-  - Edit desktop files and add `--force-color-profile=srgb` to the exec line.
+  Edit desktop files and add `--force-color-profile=srgb` to the exec line :
   
   ```INI
   Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=discord com.discordapp.Discord --force-color-profile=srgb
   ```
+
 * **Enable GPU acceleration in VS Code**
 
   Edit application desktop file :
