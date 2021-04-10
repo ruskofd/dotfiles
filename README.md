@@ -27,6 +27,13 @@
   ```INI
   Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=discord com.discordapp.Discord --force-color-profile=srgb
   ```
+* **Enable GPU acceleration in VS Code**
+
+  Edit application desktop file :
+  
+  ```INI
+  Exec=/usr/share/code/code --no-sandbox --unity-launch %F --enable-gpu-rasterization --enable-native-gpu-memory-buffers
+  ```
 
 * **WSL2 aggressive memory reclaim**
 
