@@ -10,11 +10,11 @@ call plug#begin()
 
 call plug#end()
 
-set paste
 set nocompatible
 set expandtab
 set number
 set autoindent
+set paste
 set cursorline
 set ruler
 set term=screen-256color
