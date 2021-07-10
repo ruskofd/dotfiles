@@ -7,7 +7,7 @@
 * **Applications** :
   - Terminal : Windows Terminal
   - Text Editor : Vim + VS Code
-  - Virtualization/Containers : LXD + Podman
+  - Virtualization/Containers : LXD, Podman and Docker
   - tmux 3.1
 
 ## Tips & tricks reminder
