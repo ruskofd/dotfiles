@@ -1,13 +1,13 @@
 ## General informations
 
-* **Operating System** : Pop!_OS 20.10
+* **Operating System** : Windows 11 + WSL2 (Ubuntu 21.04)
 
 * **Shell** : zsh (+ oh-my-zsh)
 
 * **Applications** :
-  - Terminal : Alacritty
+  - Terminal : Windows Terminal
   - Text Editor : Vim + VS Code
-  - Virtualization/Containers : LXD (OS containers and virtual machines) + Podman
+  - Virtualization/Containers : LXD + Podman
   - tmux 3.1
 
 ## Tips & tricks reminder
