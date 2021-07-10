@@ -4,7 +4,7 @@ export PATH="$HOME/.local/bin:$PATH"
 ZSH_THEME="gentoo"
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions kubectl helm extract fzf sudo lxd-completion-zsh)
+plugins=(git zsh-autosuggestions kubectl helm extract fzf sudo docker docker-compose lxd-completion-zsh)
 
 source $ZSH/oh-my-zsh.sh
 
